@@ -1,0 +1,23 @@
+<svg id="b" width="16pt" height="16pt" version="1.1" viewBox="0 0 42.667 42.667" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="a" x1="30.06" x2="225.94" y1="30.06" y2="225.94" gradientTransform="scale(.16667)" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#E3702D" offset="0"/>
+			<stop stop-color="#EA7D31" offset=".1071"/>
+			<stop stop-color="#F69537" offset=".3503"/>
+			<stop stop-color="#FB9E3A" offset=".5"/>
+			<stop stop-color="#EA7C31" offset=".7016"/>
+			<stop stop-color="#DE642B" offset=".8866"/>
+			<stop stop-color="#D95B29" offset="1"/>
+		</linearGradient>
+	</defs>
+	<g stroke-width=".16667">
+		<rect width="42.667" height="42.667" rx="9.1667" ry="9.1667" fill="#cc5d15"/>
+		<rect x=".83333" y=".83333" width="41" height="41" rx="8.3333" ry="8.3333" fill="#f49c52"/>
+		<rect x="1.6667" y="1.6667" width="39.333" height="39.333" rx="7.8333" ry="7.8333" fill="url(#a)"/>
+	</g>
+	<g fill="#fff" stroke-width=".16667">
+		<circle cx="11.333" cy="31.5" r="4"/>
+		<path d="m26.667 35.5h-5.6667a13.667 13.667 0 0 0-13.667-13.667v-5.6667a19.333 19.333 0 0 1 19.333 19.333z"/>
+		<path d="m30.667 35.5a23.333 23.333 0 0 0-23.333-23.333v-5.8333a29.167 29.167 0 0 1 29.167 29.167z"/>
+	</g>
+</svg>
