@@ -55,7 +55,7 @@
 
 		<div class="align-center">
 
-		<canvas id="universe" width="800" height="400"></canvas>
+		<canvas id="universe" width="800" height="400"></canvas><br>
 		<input type="button" class="material-icons" value="play_arrow" onclick="life.toggleLife();" id="start">
 		<input type="button" class="material-icons" value="skip_next" onclick="life.nextGen();">
 		<input type="button" class="material-icons" value="fast_rewind" onclick="life.changeSpeed(life.speed() - 1); $('#speed').text(life.speed());">
@@ -64,10 +64,7 @@
 		
 		<select id="patterns">
 			<option value="" selected="selected">Patterns</option>
-			<option value="/patterns/glider.rle">Glider</option>
 			<option value="patterns/glider.rle">Glider</option>
-			<option value="../patterns/glider.rle">Glider</option>
-			<option value="https://0x01.cl/life/patterns/glider.rle">Glider</option>
 		</select>
 		
 
