@@ -233,7 +233,7 @@ const life = (function () {
                     let lines = pattern.split('$');
                     let padding = 10;
 
-                    $(canvasSelector).attr('height', life.cellSize * (lines.length + 1 + (padding * 2)));
+                    $(canvasSelector).attr('height', life.cellSize * 40);
                     $(canvasSelector).attr('width', life.cellSize * (patternWidth + 1 + (padding * 2)));
                     $(canvasSelector).unbind('mousedown');
                     initUniverse(canvasSelector);
