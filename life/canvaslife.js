@@ -232,7 +232,7 @@ const life = (function () {
 					let patternWidth = parseInt(match[1]);
 					let pattern = match[3].replace(/\s+/g, ""); // Remove whitespace
 					let lines = pattern.split('$');
-					let padding = 30;
+					let padding = 1;
 
 //					$(canvasSelector).attr('height', life.cellSize * (lines.length + 1 + (padding * 2)));
 //					$(canvasSelector).attr('width', life.cellSize * (patternWidth + 1 + (padding * 2)));
