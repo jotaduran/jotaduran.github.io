@@ -1,0 +1,200 @@
+@import url("https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css");
+::selection {
+	background: red;
+	color: #fff;
+	text-shadow: none }
+body {
+	font-family: serif;
+	margin: auto;
+	max-width: 50em }
+a:focus, a:hover {
+	text-decoration: underline }
+a:hover {
+	color: #111 }
+a:link {
+	color: #268bd2;
+	text-decoration: none;
+	transition: color 0.3s ease }
+.align-center {
+	text-align: center }
+.align-left {
+	text-align: left }
+.align-right {
+	text-align: right }
+audio, video {
+	display: block;
+	margin: 0 auto;
+	max-width: 125% }
+blockquote {
+	border-left: 0.25em solid #e5e5e5;
+	padding: 0.1em 0.5em }
+blockquote + p, div + p, h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, .indent-zero, ol + p, time + p, ul + p {
+	text-indent: 0 }
+.bold {
+	font-weight: bold }
+.danger {
+	background-color: #f2dede;
+	border: 1px solid transparent;
+	border-color: #ebccd1;
+	border-radius: 4px;
+	color: #a94442;
+	margin: 1em 0;
+	padding: 1em }
+.danger a:focus, .danger a:hover, .danger a:link, .danger b {
+	color: #a94442 }
+dt {
+	font-weight: 700 }
+em, .emphasis {
+	font-style: oblique 40deg }
+#feed-icon {
+	margin-bottom: -0.1em }
+figcaption {
+	color: #696969;
+	font-family: sans;
+	font-size: .9em;
+	line-height: .9em;
+	text-align: right }
+figure img {
+	display: block;
+	height: auto;
+	left: 50%;
+	max-width: 125%;
+	padding: 0.6em 0;
+	position: relative;
+	transform: translateX(-50%) }
+footer {
+	border-top: 1px solid gray;
+	clear: both;
+	font-size: 80%;
+	margin-top: 10%;
+	padding-bottom: 1em;
+	padding-top: 0.1em }
+footer a {
+	color: #303030 !important;
+	font-family: mono }
+footer address {
+	float: right }
+footer img {
+	max-height: 1em;
+	transform: translateY(.2em) }
+.footnotes h2 {
+	font-size: 1em }
+h1, h2, h3, h4, h5, h6, .sans, time {
+	font-family: sans }
+header {
+	border-bottom: 1px solid #eee;
+	padding: 0.5em 0 }
+hr.asterism {
+	background: none;
+	border: none;
+	color: inherit;
+	display: block;
+	font-size: 1.6em;
+	margin: 0;
+	text-align: center;
+	width: 100% }
+hr.asterism:after { 
+	display: inline;
+	content: "⁂" }
+i, .italic, p .italic {
+	font-style: italic }
+.info {
+	background-color: #d9edf7;
+	border: 1px solid transparent;
+	border-color: #bce8f1;
+	border-radius: 4px;
+	color: #31708f;
+	margin: 1em 0;
+	padding: 1em }
+.info a:focus, .info a:hover, .info a:link, .info b {
+	color: #31708f }
+kbd {
+	background: #f4f4f4;
+	border: #ccc 1px solid;
+	border-radius: 4px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset;
+	color: #666;
+	display: inline-block;
+	font-family: monospace ;
+	font-size: 0.9em;
+	font-weight: 700;
+	margin-bottom: 0.4em;
+	padding: 1px 8px;
+	text-shadow: #fff 0 1px 0 }
+.mono {
+	font-family: monospace }
+nav {
+	background-color: #fff;
+	color: #303030 !important;
+	font-family: sans;
+	font-weight: 700;
+	opacity: 0.95;
+	text-decoration: none;
+	top: 0;
+	width: 100% }
+nav a {
+	color: #303030 !important }
+nav img {
+	max-height: 0.95em;
+	transform: translateY(.1em) }
+p {
+	text-indent: 1.5em }
+.post-list {
+	display: flex }
+.post-date {
+	width: 6em }
+q:before {
+	content: "«" }
+q:after {
+	content: "»" }
+.search {
+	float: right;
+	margin: -0.2em 0 }
+.signature {
+	padding-right: 3em;
+	text-align: right }
+.small-caps {
+	font-variant: small-caps }
+.success {
+	background-color: #dff0d8;
+	border: 1px solid transparent;
+	border-color: #d6e9c6;
+	border-radius: 4px;
+	color: #3c763d;
+	margin: 1em 0;
+	padding: 1em }
+.success a:focus, .success a:hover, .success a:link, .success b {
+	color: #3c763d }
+table {
+	border: 1px solid #e5e5e5;
+	border-collapse: collapse;
+	margin-bottom: 1rem;
+	width: 100% }
+tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+	background-color: #f9f9f9 }
+td, th {
+	border: 1px solid #e5e5e5;
+	padding: 0.25rem 0.5rem }
+.vimeo, .youtube {
+	height: 0;
+	margin: 1em 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative }
+.vimeo iframe, .youtube iframe {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100% }
+.warning {
+	background-color: #fcf8e3;
+	border: 1px solid transparent;
+	border-color: #faebcc;
+	border-radius: 4px;
+	color: #8a6d3b;
+	margin: 1em 0;
+	padding: 1em }
+.warning a:focus, .warning a:hover, .warning a:link, .warning b {
+	color: #8a6d3b }
