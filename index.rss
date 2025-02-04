@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>jota's blog RSS feed</title>
+		<description>This is an RSS feed</description>
+		<link>https://0x01.cl/blog</link>
+		<copyright>2025 Juan Durán Neira</copyright>
+		<lastBuildDate>Tue, 04 Feb 2025 00:45:00 -04:00</lastBuildDate>
+		<pubDate>Sun, 10 Oct 2010 10:10:10 -03:00</pubDate>
+		<ttl>1800</ttl>
+		<item>
+			<title>A Full and Comprehensive Style Test</title>
+			<description>Exsausive test of html tag presents in this site. Source https://gist.github.com/ErisDS/7e3455b70133640823c0</description>
+			<link>https://0x01.cl/blog/2010.10.10_style_test.html</link>
+			<guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
+			<pubDate>Sun, 10 Oct 2010 10:10:10 -03:00</pubDate>
+		</item>
+	</channel>
+</rss>
